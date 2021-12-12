@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #793ee7;
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    width: 90%;
+  }
+  p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .about{
+    font-size: 15px;
+    margin: 25px 0px;
+    text-align: justify;
+  }
+  .logo-container {
+    margin: 40px 0 0 70px;
+  }
+
+  .mockup {
+    width: 45%;
+    margin: 90px 50px 0 90px;
+    float: left;
+  }
+
+  .container {
+    color: white;
+    width: 80%;
+    line-height: 1.6;
+    margin: auto;
+    padding-top: 90px;
+  }
+
+  .btn {
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    text-align: center;
+    color: #7e56af;
+  }
+
+  .btn:hover {
+    border: solid 1px white;
+    background-color: #793ee7;
+    color: white;
+  }
+  .social i{
+    margin-right: 12px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .social i:hover{
+    background-color: white;
+    color: #7e56af;
+  }
+  .social {
+    clear: left;
+    float: right;
+    padding: 25px 200px;
+    color: white;
+  }
+  .attribution{
+      color: #c69ff7;
+      clear: left;
+      margin-left: 200px;
+      margin-top: 200px;
+      font-size: 0.75rem;
+  }
